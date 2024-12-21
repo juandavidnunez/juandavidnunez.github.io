@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punto Mágico - Admin</title>
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Admin - Punto Mágico</h1>
+  </header>
+
+  <main class="main-content">
+    <section class="admin-panel">
+      <h2>Gestión de Productos</h2>
+      <form id="product-form" class="product-form">
+        <label for="category">Categoría:</label>
+        <input type="text" id="category" name="category" required>
+
+        <label for="name">Nombre del Producto:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="stock">Estado de Inventario:</label>
+        <select id="stock" name="stock" required>
+          <option value="in-stock">En Stock</option>
+          <option value="out-of-stock">Fuera de Stock</option>
+        </select>
+
+        <label for="price">Precio:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+
+        <label for="image">Imagen:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+
+        <button type="submit" id="create-product">Crear Producto</button>
+      </form>
+
+      <div id="product-list" class="product-list">
+        <h3>Productos Existentes</h3>
+        <!-- Productos cargados dinámicamente -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Punto Mágico. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Asegúrate de que la ruta al archivo JavaScript transpilado es correcta -->
+  <script src="../dist/admin.js"></script>
+</body>
+</html>
