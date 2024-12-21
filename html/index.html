@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="logo">Punto Mágico</h1>
+    <h1 class="logo"><img src="../img/pm.png" alt="Logo de Punto Mágico" class="logo-img">Punto Mágico</h1>
     <nav class="navbar">
       <ul>
         <li><a href="#">Inicio</a></li>
@@ -27,7 +27,6 @@
     <section id="productos" class="productos">
       <h2>Nuestros Productos</h2>
       <div id="product-list" class="product-list">
-        <!-- Los productos se cargarán dinámicamente aquí -->
       </div>
     </section>
   </main>
@@ -38,13 +37,11 @@
 
   <script src="../ts/main.ts"></script>
   <script>
-    // Redirección al entrar a /admin
     const currentPath = window.location.pathname;
     if (currentPath.endsWith('/admin')) {
       window.location.href = './admin.html';
     }
 
-    // Hacer clic en el enlace "Admin" te lleva al archivo admin.html
     document.getElementById('admin-link')?.addEventListener('click', (e) => {
       e.preventDefault();
       window.location.href = './admin.html';
