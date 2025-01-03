@@ -1,23 +1,68 @@
 [
-    {
-      "nombre": "Bolso Rosado MGDCH",
-      "precio":"75000",
-      "imagen": "BRosado.png"
-    },
-    {
-      "nombre": "Bolso GUESS",
-      "precio": "70000",
-      "imagen": "BGuess.png"
-    },
-    {
-      "nombre": "Bolso pequeño Puma",
-      "precio": 26000,
-      "imagen": "BPpuma.png"
-    },
-    {
-        "nombre": "Cartera DIOR",
+      {
+        "nombre": "bolso AOTIAN_NEGRO",
+        "precio": 38000,
+        "imagen": "bolso_aotian.png"
+      },
+      {
+        "nombre": "bolso colgante negro JK",
+        "precio": 20000,
+        "imagen": "bolso_dama.png"
+      },
+      {
+        "nombre": "gorras blancas x1",
         "precio": 35000,
-        "imagen": "CDior.png"
+        "imagen": "garras_blancas.png"
+      },      
+      {
+        "nombre": "gorras tematicas x1",
+        "precio": 55000,
+        "imagen": "gorras_jesus.png"
+      },      
+      {
+        "nombre": "gorras tematicas x1",
+        "precio": 55000,
+        "imagen": "gorras_jesus2.png"
+      },      
+      {
+        "nombre": "gorras tematicas x1",
+        "precio": 55000,
+        "imagen": "gorras_jesus3.png"
+      },      
+      {
+        "nombre": "gorras tematicas x1",
+        "precio": 60000,
+        "imagen": "gorras_maria.png"
+      },      
+      {
+        "nombre": "sombrero dama x1",
+        "precio": 55000,
+        "imagen": "sombrero_dama.png"
+      },      
+      {
+        "nombre": "sombrero dama x1",
+        "precio": 55000,
+        "imagen": "sombrero_dama_elegante1.png"
+      },      
+      {
+        "nombre": "sombrero dama x1",
+        "precio": 55000,
+        "imagen": "sombrero_dama_elegante2.png"
+      },      
+      {
+        "nombre": "sombrero dama x1",
+        "precio": 55000,
+        "imagen": "sombrero_dama_elegante3.png"
+      },      
+      {
+        "nombre": "sombrero dama x1",
+        "precio": 55000,
+        "imagen": "sombrero_dama_gris.png"
+      },      
+      {
+        "nombre": "sombrero dama x1",
+        "precio": 55000,
+        "imagen": "sombrero_dama_negro.png"
       }
   ]
   
