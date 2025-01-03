@@ -109,28 +109,36 @@
         "imagen": "cartera_colgante.png"
       },  {
         "nombre": "bolso de mano ",
-        "precio":"90000",
+        "precio":"60000",
         "imagen": "bolso_de_mano.png"
       },  {
         "nombre": "bolso de mano ",
-        "precio":"90000",
+        "precio":"40000",
         "imagen": "bolso_de_mano2.png"
       },  {
         "nombre": "gorras clasicas ",
-        "precio":"90000",
+        "precio":"30000",
         "imagen": "gorras_clasicas.png"
       },  {
         "nombre": "gorras clasicas ",
-        "precio":"90000",
+        "precio":"30000",
         "imagen": "gorras_clasicas3.png"
       },  {
         "nombre": "gorras clasicas ",
-        "precio":"90000",
+        "precio":"30000",
         "imagen": "gorras_clasicas4.png"
       },  {
         "nombre": "gorras clasicas ",
-        "precio":"90000",
+        "precio":"30000",
         "imagen": "gorras_clasicas5.png"
+      },  {
+        "nombre": "uñas postisas ",
+        "precio":"10000",
+        "imagen": "unas_postisas.png"
+      },  {
+        "nombre": "AOYASIYUE ",
+        "precio":"15000",
+        "imagen": "AOYASIYUE.png"
       }
   ]
   
