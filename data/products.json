@@ -89,12 +89,16 @@
         "imagen": "bolso_dama_rosado.png"
       },  {
         "nombre": "Bolso elegante dorado ",
-        "precio":"75000",
+        "precio":"25000",
         "imagen": "bolso_dama_dorado.png"
       },  {
         "nombre": "Bolso negro grande",
         "precio":"75000",
         "imagen": "bolso_negro_dama_grande.png"
+      },  {
+        "nombre": "tacones plateados ",
+        "precio":"90000",
+        "imagen": "sapatos_plateados.png"
       }
   ]
   
