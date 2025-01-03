@@ -1,4 +1,24 @@
 [
+    {
+      "nombre": "Bolso Rosado MGDCH",
+      "precio":"75000",
+      "imagen": "bolso_rosado.png"
+    },
+    {
+      "nombre": "Bolso GUESS",
+      "precio": "70000",
+      "imagen": "bolso_guess.png"
+    },
+    {
+      "nombre": "Bolso pequeño Puma",
+      "precio": 26000,
+      "imagen": "bolso_puma.png"
+    },
+    {
+        "nombre": "Cartera DIOR",
+        "precio": 35000,
+        "imagen": "CDior.png"
+      },
       {
         "nombre": "bolso AOTIAN_NEGRO",
         "precio": 38000,
@@ -63,6 +83,18 @@
         "nombre": "sombrero dama x1",
         "precio": 55000,
         "imagen": "sombrero_dama_negro.png"
+      },  {
+        "nombre": "Bolso elegante Rosado ",
+        "precio":"75000",
+        "imagen": "bolso_dama_rosado.png"
+      },  {
+        "nombre": "Bolso elegante dorado ",
+        "precio":"75000",
+        "imagen": "bolso_dama_dorado.png"
+      },  {
+        "nombre": "Bolso negro grande",
+        "precio":"75000",
+        "imagen": "bolso_negro_dama_grande.png"
       }
   ]
   
