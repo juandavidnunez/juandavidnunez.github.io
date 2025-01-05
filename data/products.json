@@ -6,7 +6,7 @@
     },
     {
       "nombre": "Bolso GUESS",
-      "precio": "70000",
+      "precio": "75000",
       "imagen": "bolso_guess.png"
     },
     {
@@ -21,7 +21,7 @@
       },
       {
         "nombre": "bolso AOTIAN_NEGRO",
-        "precio": 38000,
+        "precio": 42000,
         "imagen": "bolso_aotian.png"
       },
       {
@@ -56,36 +56,36 @@
       },      
       {
         "nombre": "sombrero dama x1",
-        "precio": 55000,
+        "precio": 16000,
         "imagen": "sombrero_dama.png"
       },      
       {
         "nombre": "sombrero dama x1",
-        "precio": 55000,
+        "precio": 35000,
         "imagen": "sombrero_dama_elegante1.png"
       },      
       {
         "nombre": "sombrero dama x1",
-        "precio": 55000,
+        "precio": 16000,
         "imagen": "sombrero_dama_elegante2.png"
       },      
       {
         "nombre": "sombrero dama x1",
-        "precio": 55000,
+        "precio": 35000,
         "imagen": "sombrero_dama_elegante3.png"
       },      
       {
         "nombre": "sombrero dama x1",
-        "precio": 55000,
+        "precio": 35000,
         "imagen": "sombrero_dama_gris.png"
       },      
       {
         "nombre": "sombrero dama x1",
-        "precio": 55000,
+        "precio": 35000,
         "imagen": "sombrero_dama_negro.png"
       },  {
         "nombre": "Bolso elegante Rosado ",
-        "precio":"75000",
+        "precio":"42000",
         "imagen": "bolso_dama_rosado.png"
       },  {
         "nombre": "Bolso elegante dorado ",
@@ -101,19 +101,19 @@
         "imagen": "sapatos_plateados.png"
       },  {
         "nombre": "bolso prada ",
-        "precio":"90000",
+        "precio":"59000",
         "imagen": "bolso_prada.png"
       },  {
         "nombre": "cartera colgante ",
-        "precio":"20000",
+        "precio":"42000",
         "imagen": "cartera_colgante.png"
       },  {
         "nombre": "bolso de mano ",
         "precio":"60000",
         "imagen": "bolso_de_mano.png"
       },  {
-        "nombre": "bolso de mano ",
-        "precio":"40000",
+        "nombre": "bolso de mano x1 ",
+        "precio":"59000",
         "imagen": "bolso_de_mano2.png"
       },  {
         "nombre": "gorras clasicas ",
@@ -121,11 +121,11 @@
         "imagen": "gorras_clasicas.png"
       },  {
         "nombre": "gorras clasicas ",
-        "precio":"30000",
+        "precio":"39000",
         "imagen": "gorras_clasicas3.png"
       },  {
         "nombre": "gorras clasicas ",
-        "precio":"30000",
+        "precio":"44000",
         "imagen": "gorras_clasicas4.png"
       },  {
         "nombre": "gorras clasicas ",
@@ -133,7 +133,7 @@
         "imagen": "gorras_clasicas5.png"
       },  {
         "nombre": "uñas postisas ",
-        "precio":"10000",
+        "precio":"8000",
         "imagen": "unas_postisas.png"
       },  {
         "nombre": "AOYASIYUE ",
