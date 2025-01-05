@@ -59,6 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
         >
           Pedir por WhatsApp
         </a>
+        <p>O ver imagen completa aquí:</p>
+        <a href="../img/${product.imagen}" target="_blank" class="image-link">
+          Ver Imagen
+        </a>
       </div>
     `;
     modal.style.display = "block";
