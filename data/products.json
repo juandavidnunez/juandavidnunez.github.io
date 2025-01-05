@@ -171,6 +171,22 @@
         "nombre": "tinte visalia ",
         "precio":"14000",
         "imagen": "tinte_visalia.png"
+      },  {
+        "nombre":  "palette",
+        "precio":"12800",
+        "imagen": "palette.png"
+      },  {
+        "nombre":  "Alisadora supreme pluss",
+        "precio":"44000",
+        "imagen": "supreme_pluss.png"
+      },  {
+        "nombre":  "Alisadora Organix pluss",
+        "precio":"46000",
+        "imagen": "organix_puss.png"
+      },  {
+        "nombre":  "Alisadora Organix pluss",
+        "precio":"46000",
+        "imagen": "organix_plusss.png"
       }
   ]
   
