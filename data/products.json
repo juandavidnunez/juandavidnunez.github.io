@@ -131,6 +131,10 @@
         "nombre": "gorras clasicas ",
         "precio":"30000",
         "imagen": "gorras_clasicas5.png"
+      },{
+        "nombre": "gorras de linea ",
+        "precio":"39000",
+        "imagen": "gorras_de_linea.png"
       },  {
         "nombre": "uñas postisas ",
         "precio":"8000",
@@ -151,6 +155,22 @@
         "nombre": "CREPOS ",
         "precio":"30000",
         "imagen": "crespos.png"
+      },  {
+        "nombre": "ORIENTAL ",
+        "precio":"22000",
+        "imagen": "oriental.png"
+      } ,  {
+        "nombre": "base liquida ",
+        "precio":"13000",
+        "imagen": "base_liquida.png"
+      },  {
+        "nombre": "thyms ",
+        "precio":"14000",
+        "imagen": "thyms.png"
+      },  {
+        "nombre": "tinte visalia ",
+        "precio":"14000",
+        "imagen": "tinte_visalia.png"
       }
   ]
   
