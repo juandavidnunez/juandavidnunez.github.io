@@ -17,7 +17,7 @@
     {
         "nombre": "Cartera DIOR",
         "precio": 35000,
-        "imagen": "CDior.png"
+        "imagen": "Bolso_dior.png"
       },
       {
         "nombre": "bolso AOTIAN_NEGRO",
@@ -139,6 +139,18 @@
         "nombre": "AOYASIYUE ",
         "precio":"15000",
         "imagen": "AOYASIYUE.png"
+      },  {
+        "nombre": "SKALA ",
+        "precio":"34000",
+        "imagen": "skala.png"
+      },  {
+        "nombre": "NATIVA ",
+        "precio":"18000",
+        "imagen": "nativa.png"
+      },  {
+        "nombre": "CREPOS ",
+        "precio":"30000",
+        "imagen": "crespos.png"
       }
   ]
   
