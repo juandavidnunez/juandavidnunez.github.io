@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3>${product.nombre}</h3>
               <p class="product-price">Precio: $${parseFloat(product.precio).toFixed(2)}</p>
               <a 
-                  href="https://wa.me/573136555803?text=${encodeURIComponent(
+                  href="https://wa.me/3136775803?text=${encodeURIComponent(
                       `Hola, estoy interesado en el producto: ${product.nombre}.\nPrecio: $${parseFloat(product.precio).toFixed(
                           2
                       )}.`
