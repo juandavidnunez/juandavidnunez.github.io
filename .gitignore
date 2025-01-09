@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.env
+
+# Logs
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.project
+*.classpath
+*.factorypath
+target/
+bin/
+build/
+.gradle/
+.idea/
+*.iws
+*.ipr
+*.gwt/
+.settings/
+*.jmx
+*.jfr
+
+# CSS/SASS/SCSS
+*.sass-cache
+*.scss-cache
+css/
+*.css.map
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor specific
+.vscode/
+*.swp
+*.swo
+
+# Package Managers
+package-lock.json
+yarn.lock
+
+# Misc
+coverage/
+!LICENSE

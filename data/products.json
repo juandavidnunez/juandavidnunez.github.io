@@ -1,192 +1,217 @@
 [
-    {
-      "nombre": "Bolso Rosado MGDCH",
-      "precio":"75000",
-      "imagen": "bolso_rosado.png"
-    },
-    {
-      "nombre": "Bolso GUESS",
-      "precio": "75000",
-      "imagen": "bolso_guess.png"
-    },
-    {
-      "nombre": "Bolso pequeño Puma",
-      "precio": 26000,
-      "imagen": "bolso_puma.png"
-    },
-    {
-        "nombre": "Cartera DIOR",
-        "precio": 35000,
-        "imagen": "Bolso_dior.png"
-      },
-      {
-        "nombre": "bolso AOTIAN_NEGRO",
-        "precio": 42000,
-        "imagen": "bolso_aotian.png"
-      },
-      {
-        "nombre": "bolso colgante negro JK",
-        "precio": 20000,
-        "imagen": "bolso_dama.png"
-      },
-      {
-        "nombre": "gorras blancas x1",
-        "precio": 35000,
-        "imagen": "garras_blancas.png"
-      },      
-      {
-        "nombre": "gorras tematicas x1",
-        "precio": 55000,
-        "imagen": "gorras_jesus.png"
-      },      
-      {
-        "nombre": "gorras tematicas x1",
-        "precio": 55000,
-        "imagen": "gorras_jesus2.png"
-      },      
-      {
-        "nombre": "gorras tematicas x1",
-        "precio": 55000,
-        "imagen": "gorras_jesus3.png"
-      },      
-      {
-        "nombre": "gorras tematicas x1",
-        "precio": 60000,
-        "imagen": "gorras_maria.png"
-      },      
-      {
-        "nombre": "sombrero dama x1",
-        "precio": 16000,
-        "imagen": "sombrero_dama.png"
-      },      
-      {
-        "nombre": "sombrero dama x1",
-        "precio": 35000,
-        "imagen": "sombrero_dama_elegante1.png"
-      },      
-      {
-        "nombre": "sombrero dama x1",
-        "precio": 16000,
-        "imagen": "sombrero_dama_elegante2.png"
-      },      
-      {
-        "nombre": "sombrero dama x1",
-        "precio": 35000,
-        "imagen": "sombrero_dama_elegante3.png"
-      },      
-      {
-        "nombre": "sombrero dama x1",
-        "precio": 35000,
-        "imagen": "sombrero_dama_gris.png"
-      },      
-      {
-        "nombre": "sombrero dama x1",
-        "precio": 35000,
-        "imagen": "sombrero_dama_negro.png"
-      },  {
-        "nombre": "Bolso elegante Rosado ",
-        "precio":"42000",
-        "imagen": "bolso_dama_rosado.png"
-      },  {
-        "nombre": "Bolso elegante dorado ",
-        "precio":"25000",
-        "imagen": "bolso_dama_dorado.png"
-      },  {
-        "nombre": "Bolso negro grande",
-        "precio":"75000",
-        "imagen": "bolso_negro_dama_grande.png"
-      },  {
-        "nombre": "tacones plateados ",
-        "precio":"90000",
-        "imagen": "sapatos_plateados.png"
-      },  {
-        "nombre": "bolso prada ",
-        "precio":"59000",
-        "imagen": "bolso_prada.png"
-      },  {
-        "nombre": "cartera colgante ",
-        "precio":"42000",
-        "imagen": "cartera_colgante.png"
-      },  {
-        "nombre": "bolso de mano ",
-        "precio":"60000",
-        "imagen": "bolso_de_mano.png"
-      },  {
-        "nombre": "bolso de mano x1 ",
-        "precio":"59000",
-        "imagen": "bolso_de_mano2.png"
-      },  {
-        "nombre": "gorras clasicas ",
-        "precio":"30000",
-        "imagen": "gorras_clasicas.png"
-      },  {
-        "nombre": "gorras clasicas ",
-        "precio":"39000",
-        "imagen": "gorras_clasicas3.png"
-      },  {
-        "nombre": "gorras clasicas ",
-        "precio":"44000",
-        "imagen": "gorras_clasicas4.png"
-      },  {
-        "nombre": "gorras clasicas ",
-        "precio":"30000",
-        "imagen": "gorras_clasicas5.png"
-      },{
-        "nombre": "gorras de linea ",
-        "precio":"39000",
-        "imagen": "gorras_de_linea.png"
-      },  {
-        "nombre": "uñas postisas ",
-        "precio":"8000",
-        "imagen": "unas_postisas.png"
-      },  {
-        "nombre": "AOYASIYUE ",
-        "precio":"15000",
-        "imagen": "AOYASIYUE.png"
-      },  {
-        "nombre": "SKALA ",
-        "precio":"34000",
-        "imagen": "skala.png"
-      },  {
-        "nombre": "NATIVA ",
-        "precio":"18000",
-        "imagen": "nativa.png"
-      },  {
-        "nombre": "CREPOS ",
-        "precio":"30000",
-        "imagen": "crespos.png"
-      },  {
-        "nombre": "ORIENTAL ",
-        "precio":"22000",
-        "imagen": "oriental.png"
-      } ,  {
-        "nombre": "base liquida ",
-        "precio":"13000",
-        "imagen": "base_liquida.png"
-      },  {
-        "nombre": "thyms ",
-        "precio":"14000",
-        "imagen": "thyms.png"
-      },  {
-        "nombre": "tinte visalia ",
-        "precio":"14000",
-        "imagen": "tinte_visalia.png"
-      },  {
-        "nombre":  "palette",
-        "precio":"12800",
-        "imagen": "palette.png"
-      },  {
-        "nombre":  "Alisadora supreme pluss",
-        "precio":"44000",
-        "imagen": "supreme_pluss.png"
-      },  {
-        "nombre":  "Alisadora Organix pluss",
-        "precio":"46000",
-        "imagen": "organix_puss.png"
-      },  {
-        "nombre":  "Alisadora Organix pluss",
-        "precio":"46000",
-        "imagen": "organix_plusss.png"
-      }
-  ]
-  
+  {
+    "nombre": "Bolso Rosado MGDCH",
+    "precio": "75000",
+    "imagen": "bolso_rosado.png"
+  },
+  {
+    "nombre": "Bolso GUESS",
+    "precio": "75000",
+    "imagen": "bolso_guess.png"
+  },
+  {
+    "nombre": "Bolso pequeño Puma",
+    "precio": 26000,
+    "imagen": "bolso_puma.png"
+  },
+  {
+    "nombre": "Cartera DIOR",
+    "precio": 35000,
+    "imagen": "Bolso_dior.png"
+  },
+  {
+    "nombre": "bolso AOTIAN_NEGRO",
+    "precio": 42000,
+    "imagen": "bolso_aotian.png"
+  },
+  {
+    "nombre": "bolso colgante negro JK",
+    "precio": 20000,
+    "imagen": "bolso_dama.png"
+  },
+  {
+    "nombre": "gorras blancas x1",
+    "precio": 35000,
+    "imagen": "garras_blancas.png"
+  },
+  {
+    "nombre": "gorras tematicas x1",
+    "precio": 55000,
+    "imagen": "gorras_jesus.png"
+  },
+  {
+    "nombre": "gorras tematicas x1",
+    "precio": 55000,
+    "imagen": "gorras_jesus2.png"
+  },
+  {
+    "nombre": "gorras tematicas x1",
+    "precio": 55000,
+    "imagen": "gorras_jesus3.png"
+  },
+  {
+    "nombre": "gorras tematicas x1",
+    "precio": 60000,
+    "imagen": "gorras_maria.png"
+  },
+  {
+    "nombre": "sombrero dama x1",
+    "precio": 16000,
+    "imagen": "sombrero_dama.png"
+  },
+  {
+    "nombre": "sombrero dama x1",
+    "precio": 35000,
+    "imagen": "sombrero_dama_elegante1.png"
+  },
+  {
+    "nombre": "sombrero dama x1",
+    "precio": 16000,
+    "imagen": "sombrero_dama_elegante2.png"
+  },
+  {
+    "nombre": "sombrero dama x1",
+    "precio": 35000,
+    "imagen": "sombrero_dama_elegante3.png"
+  },
+  {
+    "nombre": "sombrero dama x1",
+    "precio": 35000,
+    "imagen": "sombrero_dama_gris.png"
+  },
+  {
+    "nombre": "sombrero dama x1",
+    "precio": 35000,
+    "imagen": "sombrero_dama_negro.png"
+  },
+  {
+    "nombre": "Bolso elegante Rosado ",
+    "precio": "42000",
+    "imagen": "bolso_dama_rosado.png"
+  },
+  {
+    "nombre": "Bolso elegante dorado ",
+    "precio": "25000",
+    "imagen": "bolso_dama_dorado.png"
+  },
+  {
+    "nombre": "Bolso negro grande",
+    "precio": "75000",
+    "imagen": "bolso_negro_dama_grande.png"
+  },
+  {
+    "nombre": "tacones plateados ",
+    "precio": "90000",
+    "imagen": "sapatos_plateados.png"
+  },
+  {
+    "nombre": "bolso prada ",
+    "precio": "59000",
+    "imagen": "bolso_prada.png"
+  },
+  {
+    "nombre": "cartera colgante ",
+    "precio": "42000",
+    "imagen": "cartera_colgante.png"
+  },
+  {
+    "nombre": "bolso de mano ",
+    "precio": "60000",
+    "imagen": "bolso_de_mano.png"
+  },
+  {
+    "nombre": "bolso de mano x1 ",
+    "precio": "59000",
+    "imagen": "bolso_de_mano2.png"
+  },
+  {
+    "nombre": "gorras clasicas ",
+    "precio": "30000",
+    "imagen": "gorras_clasicas.png"
+  },
+  {
+    "nombre": "gorras clasicas ",
+    "precio": "39000",
+    "imagen": "gorras_clasicas3.png"
+  },
+  {
+    "nombre": "gorras clasicas ",
+    "precio": "44000",
+    "imagen": "gorras_clasicas4.png"
+  },
+  {
+    "nombre": "gorras clasicas ",
+    "precio": "30000",
+    "imagen": "gorras_clasicas5.png"
+  },
+  {
+    "nombre": "gorras de linea ",
+    "precio": "39000",
+    "imagen": "gorras_de_linea.png"
+  },
+  {
+    "nombre": "uñas postisas ",
+    "precio": "8000",
+    "imagen": "unas_postisas.png"
+  },
+  {
+    "nombre": "AOYASIYUE ",
+    "precio": "15000",
+    "imagen": "AOYASIYUE.png"
+  },
+  {
+    "nombre": "SKALA ",
+    "precio": "34000",
+    "imagen": "skala.png"
+  },
+  {
+    "nombre": "NATIVA ",
+    "precio": "18000",
+    "imagen": "nativa.png"
+  },
+  {
+    "nombre": "CREPOS ",
+    "precio": "30000",
+    "imagen": "crespos.png"
+  },
+  {
+    "nombre": "ORIENTAL ",
+    "precio": "22000",
+    "imagen": "oriental.png"
+  },
+  {
+    "nombre": "base liquida ",
+    "precio": "13000",
+    "imagen": "base_liquida.png"
+  },
+  {
+    "nombre": "thyms ",
+    "precio": "14000",
+    "imagen": "thyms.png"
+  },
+  {
+    "nombre": "tinte visalia ",
+    "precio": "14000",
+    "imagen": "tinte_visalia.png"
+  },
+  {
+    "nombre": "palette",
+    "precio": "12800",
+    "imagen": "palette.png"
+  },
+  {
+    "nombre": "Alisadora supreme pluss",
+    "precio": "44000",
+    "imagen": "supreme_pluss.png"
+  },
+  {
+    "nombre": "Alisadora Organix pluss",
+    "precio": "46000",
+    "imagen": "organix_puss.png"
+  },
+  {
+    "nombre": "Alisadora Organix pluss",
+    "precio": "46000",
+    "imagen": "organix_plusss.png"
+  }
+]
