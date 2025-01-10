@@ -1,33 +1,25 @@
-/* Estilos modernos para index.css */
-
-/* Variables de colores principales */
-:root {
-    --primary-color: #222; /* Negro 75% */
-    --accent-color-pink: #ff6ec7; /* Rosa 10% */
-    --accent-color-blue: #6ec7ff; /* Azul 10% */
-    --accent-color-yellow: #ffd56e; /* Amarillo 5% */
-    --text-color: #f4f4f4;
-    --background-color: #f9f9f9;
-}
-
-/* Reset básico */
+/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos generales */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--text-color);
-    background-color: var(--background-color);
+    align-items: center;
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ecfff3;
+    color: #000000;
     line-height: 1.6;
 }
 
 /* Header */
 .header {
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color: #000000;
+    color: #6F61C0;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -36,9 +28,9 @@ body {
 
 .header .logo {
     font-size: 1.8rem;
-    font-weight: bold;
     display: flex;
     align-items: center;
+    color: #6F61C0;
 }
 
 .header .logo img {
@@ -47,6 +39,7 @@ body {
     margin-right: 10px;
 }
 
+/* Navbar */
 .navbar ul {
     list-style: none;
     display: flex;
@@ -55,20 +48,20 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: var(--text-color);
+    color: #6F61C0;
+    font-size: 1.8rem;
     transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: var(--accent-color-pink);
+    color: #8BE8E5;
 }
 
 /* Hero */
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, var(--accent-color-blue), var(--accent-color-pink));
-    color: var(--text-color);
+    color: #000000;
 }
 
 .hero h2 {
@@ -89,7 +82,6 @@ body {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: var(--primary-color);
 }
 
 .product-list {
@@ -114,7 +106,6 @@ body {
 
 .product-list h3 {
     font-size: 1.5rem;
-    color: var(--primary-color);
 }
 
 .product-list img {
@@ -126,21 +117,34 @@ body {
 .product-price {
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--accent-color-pink);
+}
+
+/* Sección Home */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img {
+    max-width: 100%;
+    height: auto;
+    width: 30%; /* Disminuir tamaño de la imagen */
+    object-fit: cover; /* Asegurar que la imagen mantenga proporciones */
 }
 
 /* Footer */
 .footer {
-    background-color: var(--primary-color);
-    color: var(--text-color);
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    background-color: #000000;
+    color: #8BE8E5
 }
 
 /* Estilos del modal */
 .modal {
-    display: none; /* Oculto por defecto */
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -162,8 +166,8 @@ body {
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
-    z-index: 999; /* Debajo del modal */
-    display: none; /* Oculto por defecto */
+    z-index: 999;
+    display: none;
 }
 
 .modal-image {
@@ -182,6 +186,7 @@ body {
     cursor: pointer;
 }
 
+/* Botón de WhatsApp */
 .whatsapp-button {
     display: inline-block;
     padding: 0.8rem 1.5rem;
