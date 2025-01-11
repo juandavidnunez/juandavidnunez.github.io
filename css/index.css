@@ -24,6 +24,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed; /* Hace el header fijo */
+    top: 0; /* Anclado en la parte superior */
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    z-index: 1000; /* Asegura que quede encima del contenido */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para mayor contraste */
 }
 
 .header .logo {
@@ -55,6 +61,11 @@ body {
 
 .navbar a:hover {
     color: #8BE8E5;
+}
+
+/* Ajuste de márgenes para evitar que el contenido quede oculto */
+.main-content {
+    margin-top: 80px; /* Espacio igual a la altura del header */
 }
 
 /* Hero */
