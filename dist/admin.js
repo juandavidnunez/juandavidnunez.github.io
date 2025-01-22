@@ -1,72 +1,79 @@
-// Elementos del DOM
-var form = document.getElementById('product-form');
-var categoryInput = document.getElementById('category');
-var nameInput = document.getElementById('name');
-var stockInput = document.getElementById('stock');
-var priceInput = document.getElementById('price');
-var imageInput = document.getElementById('image');
-var productList = document.getElementById('product-list');
-// Función para guardar producto en localStorage
-function saveProduct(productData) {
-    var products = JSON.parse(localStorage.getItem('products') || '[]');
-    products.push(productData);
-    localStorage.setItem('products', JSON.stringify(products));
-}
-// Función para cargar productos de localStorage
-function loadProducts() {
-    var products = JSON.parse(localStorage.getItem('products') || '[]');
-    products.forEach(function (product) {
-        addProductToList(product);
-    });
-}
-// Crear producto
-form.addEventListener('submit', function (event) {
-    var _a;
-    event.preventDefault();
-    var category = categoryInput.value.trim();
-    var productName = nameInput.value.trim();
-    var stock = stockInput.value;
-    var price = parseFloat(priceInput.value);
-    var imageFile = (_a = imageInput.files) === null || _a === void 0 ? void 0 : _a[0];
-    if (!category || !productName || isNaN(price) || !imageFile) {
-        alert('Todos los campos son obligatorios');
-        return;
+// Al cargar la página, muestra los productos almacenados
+document.addEventListener('DOMContentLoaded', () => {
+    loadProducts();
+  });
+  
+  document.getElementById('product-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+  
+    // Obtener los valores del formulario
+    const category = document.getElementById('category').value.trim();
+    const name = document.getElementById('name').value.trim();
+    const stock = document.getElementById('stock').value;
+    const price = parseFloat(document.getElementById('price').value);
+    const imageInput = document.getElementById('image');
+    const imageFile = imageInput.files[0];
+  
+    if (!imageFile) {
+      alert('Por favor, selecciona una imagen.');
+      return;
     }
-    var reader = new FileReader();
-    reader.onload = function () {
-        var productData = {
-            category: category,
-            productName: productName,
-            stock: stock,
-            price: price,
-            image: reader.result, // Base64 data URL
-        };
-        // Guardar datos y mostrar producto
-        saveProduct(productData);
-        addProductToList(productData);
-        // Limpiar formulario
-        form.reset();
-        alert('Producto creado con éxito');
+  
+    // Convertir la imagen a Base64
+    const imageBase64 = await convertToBase64(imageFile);
+  
+    // Crear el objeto del producto
+    const newProduct = {
+      category,
+      name,
+      stock,
+      price,
+      image: imageBase64, // Imagen en formato Base64
     };
-    reader.readAsDataURL(imageFile);
-});
-// Mostrar producto en la lista
-function addProductToList(productData) {
-    var productDiv = document.createElement('div');
-    productDiv.classList.add('product-item');
-    productDiv.innerHTML = "\n    <img src=\"".concat(productData.image, "\" alt=\"").concat(productData.productName, "\" />\n    <div class=\"product-info\">\n      <h4>").concat(productData.productName, "</h4>\n      <p>Categor\u00EDa: ").concat(productData.category, "</p>\n      <p>Estado: ").concat(productData.stock, "</p>\n      <p>Precio: $").concat(productData.price.toFixed(2), "</p>\n    </div>\n    <button class=\"delete-btn\">Eliminar</button>\n  ");
-    var deleteBtn = productDiv.querySelector('.delete-btn');
-    deleteBtn.addEventListener('click', function () {
-        productDiv.remove();
-        deleteProduct(productData.productName);
+  
+    // Guardar el producto en localStorage
+    saveProduct(newProduct);
+  
+    // Limpiar el formulario
+    document.getElementById('product-form').reset();
+  
+    // Actualizar la lista de productos
+    addProductToDOM(newProduct);
+    alert('Producto creado con éxito.');
+  });
+  
+  // Función para convertir una imagen a Base64
+  function convertToBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = (error) => reject(error);
     });
-    productList.appendChild(productDiv);
-}
-// Eliminar producto
-function deleteProduct(productName) {
-    var products = JSON.parse(localStorage.getItem('products') || '[]');
-    products = products.filter(function (product) { return product.productName !== productName; });
+  }
+  
+  // Función para guardar un producto en localStorage
+  function saveProduct(product) {
+    const products = JSON.parse(localStorage.getItem('products')) || [];
+    products.push(product);
     localStorage.setItem('products', JSON.stringify(products));
-}
-// Cargar productos al iniciar
-loadProducts();
+  }
+  
+  // Función para cargar productos desde localStorage
+  function loadProducts() {
+    const products = JSON.parse(localStorage.getItem('products')) || [];
+    products.forEach((product) => addProductToDOM(product));
+  }
+  
+  // Función para agregar un producto al DOM
+  function addProductToDOM(product) {
+    const productsContainer = document.getElementById('products-container');
+    const productElement = document.createElement('li');
+    productElement.innerHTML = `
+      <strong>${product.name}</strong> - ${product.category} - $${product.price.toFixed(2)} 
+      (${product.stock === 'in-stock' ? 'En Stock' : 'Fuera de Stock'})<br>
+      <img src="${product.image}" alt="${product.name}" style="width: 100px; height: auto;">
+    `;
+    productsContainer.appendChild(productElement);
+  }
+  

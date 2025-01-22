@@ -150,7 +150,7 @@ body {
     padding: 1rem;
     margin-top: 2rem;
     background-color: #000000;
-    color: #8BE8E5
+    color: #8BE8E5;
 }
 
 /* Estilos del modal */
@@ -212,4 +212,32 @@ body {
 
 .whatsapp-button:hover {
     background: #1DA851;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 500px) {
+    /* Reducir tamaño de la barra superior */
+    .header {
+        padding: 0.5rem 1rem;
+    }
+    .header .logo {
+        font-size: 1.5rem;
+    }
+    .header .logo img {
+        width: 30px;
+    }
+    .navbar a {
+        font-size: 1.5rem;
+    }
+
+    /* Aumentar tamaño de la sección inicio */
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .home img {
+        width: 50%; /* Aumenta el tamaño relativo de la imagen */
+    }
 }
